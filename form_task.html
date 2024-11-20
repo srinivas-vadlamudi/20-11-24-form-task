@@ -14,7 +14,7 @@
         <legend>
             <h2>Applicant Details</h2>
         </legend>
-        <table cellspacing="10">
+        <table cellspacing="10" cellpadding="5">
             <tr>
                 <td>
                     Name<strong>*</strong> &emsp;&emsp; &emsp;&emsp;<input type="text" maxlength="20"
@@ -22,8 +22,8 @@
                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; (max characters :20)
                 </td>
                 <td>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fathers/Guardians Name<strong>*</strong> &emsp;&emsp; <input
-                        type="text" required="required">
+                    Fathers/Guardians Name<strong>*</strong> &emsp;
+                    <input type="text" required="required">
                 </td>
             </tr>
             <tr>
@@ -31,7 +31,7 @@
                     Date of birth <strong>*</strong> &emsp;&nbsp;<input type="text" required="required">
                 </td>
                 <td>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Gender<strong>*</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&nbsp;
+                    Gender<strong>*</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&ensp;
                     <input type="radio" value="Female" name="gender" required="required">Female
                     <input type="radio" value="Male" name="gender">Male
                 </td>
@@ -43,8 +43,8 @@
                     <input type="checkbox">Day()
                 </td>
                 <td>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Aadhar No
-                    :&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&nbsp;&nbsp;<input type="text" name="aadhar">
+                    Aadhar No
+                    :&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&ensp;<input type="text" name="aadhar">
                 </td>
             </tr>
             <tr>
@@ -52,7 +52,7 @@
                     WhatsApp No<strong>*</strong>&emsp;<input type="text" name="whatsapp">
                 </td>
                 <td>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;E-Mail id<strong>*</strong> &ensp;&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&nbsp;&nbsp; <input type="text">
+                    E-Mail id<strong>*</strong> &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;<input type="text">
                 </td>
             </tr>
             <tr>
@@ -66,36 +66,45 @@
         <legend>
             <h2>Residential Address Details</h2>
         </legend>
-        <table cellspacing="15">
+        <table cellspacing="10" cellpadding="5">
             <tr>
                 <td>
                     Applicants Address<strong>*</strong>
-                    <textarea name="address" id="" rows="5" cols="30"></textarea><br>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;(max characters :20)
                 </td>
                 <td>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<label for="district">District <strong>*</strong></label>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select name="district" id="district">
-                    <option value="HYDERABAD">HYDERABAD</option>
-                </select>
+                    <textarea name="address" id="" rows="5" cols="30"></textarea required="required"><br>
+                  (max characters :20)
+                </td>
+                <td>
+                    <label for="district">District <strong>*</strong></label>
+                </td>
+                <td>
+                    <select name="district" id="district">
+                        <option value="HYDERABAD">HYDERABAD</option>
+                    </select>
                 </td>
             </tr>
             <tr>
                 <td>
                     <label for="mandal">Mandal <strong>*</strong></label>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;<select name="mandal" id="mandal">
-                    <option value="HYDERABAD">HYDERABAD</option>
-                     </select>
                 </td>
                 <td>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<label for="village">Village<strong>*</strong></label>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<select name="village" id="village">
-                    <option value="HYDERABAD">HYDERABAD</option>
-                     </select>
+                    <select name="mandal" id="mandal">
+                        <option value="HYDERABAD">HYDERABAD</option>
+                         </select>
+                </td>
+                <td>
+                   <label for="village">Village<strong>*</strong></label>
+                </td>
+                <td>
+                    <select name="village" id="village">
+                        <option value="HYDERABAD">HYDERABAD</option>
+                         </select>
                 </td>
             </tr>
             <tr>
-                <td>Pincode<strong>*</strong> &emsp;&emsp;&emsp;&emsp;&emsp;<input type="text"></td>
+                <td>Pincode<strong>*</strong>
+                    <td><input type="text"></td></td>
             </tr>
         </table>
     </fieldset>
@@ -104,7 +113,7 @@
         <legend>
             <h2>Pass Type Details</h2>
         </legend>
-        <table cellspacing="20">
+        <table cellspacing="10" cellpadding="5">
             <tr>
                 <td>
                     <label for="city">City<strong>*</strong></label>
@@ -131,7 +140,7 @@
         <legend>
             <h2>Mode of Payment & Pass Collection</h2>
         </legend>
-        <table cellspacing="20">
+        <table cellspacing="10" cellpadding="5">
             <tr>
                 <td>
                     <label for="payment">Payment Mode<strong>*</strong></label>
