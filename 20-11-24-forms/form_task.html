@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BussPass</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h2>Applicant Details</h2>
+        </legend>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    Name<strong>*</strong> &emsp;&emsp; &emsp;&emsp;<input type="text" maxlength="20"
+                        required="required"><br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; (max characters :20)
+                </td>
+                <td>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fathers/Guardians Name<strong>*</strong> &emsp;&emsp; <input
+                        type="text" required="required">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of birth <strong>*</strong> &emsp;&nbsp;<input type="text" required="required">
+                </td>
+                <td>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Gender<strong>*</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&nbsp;
+                    <input type="radio" value="Female" name="gender" required="required">Female
+                    <input type="radio" value="Male" name="gender">Male
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Age as on : &emsp;&emsp;<input type="checkbox">Years()
+                    <input type="checkbox">Months()
+                    <input type="checkbox">Day()
+                </td>
+                <td>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Aadhar No
+                    :&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&nbsp;&nbsp;<input type="text" name="aadhar">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    WhatsApp No<strong>*</strong>&emsp;<input type="text" name="whatsapp">
+                </td>
+                <td>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;E-Mail id<strong>*</strong> &ensp;&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&nbsp;&nbsp; <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Photo <input type="file" accept="image/png,image/jpeg" name="image"/>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
