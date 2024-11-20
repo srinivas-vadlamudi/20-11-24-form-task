@@ -7,72 +7,99 @@
 </head>
 <body>
     <center><img src="./images/tslogo.PNG" alt="" width="4%"></center>
-    <center><h1>TELANAGANA STATE ROAD TRANSPORT CORPORATION</h1></center>
-    <center><h2>GENERAL BUS PASS APPLICATION</h2></center>
+    <center>
+        <h1>TELANAGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    </center>
+    <center>
+        <h2>GENERAL BUS PASS APPLICATION</h2>
+    </center>
     <form action="./submit.html" method="get">
-    <fieldset>
-        <legend>
-            <h2>Applicant Details</h2>
-        </legend>
-        <table cellspacing="10" cellpadding="5">
-            <tr>
-                <td>
-                    Name<strong>*</strong> &emsp;&emsp; &emsp;&emsp;<input type="text" maxlength="20"
-                        required="required"><br>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; (max characters :20)
-                </td>
-                <td>
-                    Fathers/Guardians Name<strong>*</strong> &emsp;
-                    <input type="text" required="required">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Date of birth <strong>*</strong> &emsp;&nbsp;<input type="text" required="required">
-                </td>
-                <td>
-                    Gender<strong>*</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&ensp;
-                    <input type="radio" value="Female" name="gender" required="required">Female
-                    <input type="radio" value="Male" name="gender">Male
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Age as on : &emsp;&emsp;<input type="checkbox">Years()
-                    <input type="checkbox">Months()
-                    <input type="checkbox">Day()
-                </td>
-                <td>
-                    Aadhar No
-                    :&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&ensp;<input type="text" name="aadhar">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    WhatsApp No<strong>*</strong>&emsp;<input type="text" name="whatsapp">
-                </td>
-                <td>
-                    E-Mail id<strong>*</strong> &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;<input type="text">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Photo&emsp;&emsp;&emsp;&emsp;&emsp;<input type="file" accept="image/png,image/jpeg" name="image"/>
-                </td>
-            </tr>
-        </table>
-    </fieldset>
-    <fieldset >
-        <legend>
-            <h2>Residential Address Details</h2>
-        </legend>
-        <table cellspacing="10" cellpadding="5">
-            <tr>
-                <td>
-                    Applicants Address<strong>*</strong>
-                </td>
-                <td>
-                    <textarea name="address" id="" rows="5" cols="30"></textarea required="required"><br>
+        <fieldset>
+            <legend>
+                <h2>Applicant Details</h2>
+            </legend>
+            <table cellspacing="10" cellpadding="5">
+                <tr>
+                    <td>
+                        Name<strong>*</strong>
+                    </td>
+                    <td>
+                        <input type="text" maxlength="20" required="required"><br>
+                        (max characters :20)
+                    </td>
+                    <td>
+                        Fathers/Guardians Name<strong>*</strong>
+                    </td>
+                    <td>
+                        <input type="text" required="required">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of birth <strong>*</strong>
+                    </td>
+                    <td>
+                        <input type="text" required="required">
+                    </td>
+                    <td>
+                        Gender<strong>*</strong>
+                    </td>
+                    <td>
+                        <input type="radio" value="Female" name="gender" required="required">Female
+                        <input type="radio" value="Male" name="gender">Male
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Age as on :
+                    </td>
+                    <td>
+                        <input type="checkbox">Years()
+                        <input type="checkbox">Months()
+                        <input type="checkbox">Day()
+                    </td>
+                    <td>
+                        Aadhar No :
+                    </td>
+                    <td>
+                        <input type="text" name="aadhar">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        WhatsApp No<strong>*</strong>
+                    </td>
+                    <td>
+                        <input type="text" name="whatsapp">
+                    </td>
+                    <td>
+                        E-Mail id<strong>*</strong>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Photo
+                    </td>
+                    <td>
+                        <input type="file" accept="image/png,image/jpeg" name="image" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>Residential Address Details</h2>
+            </legend>
+            <table cellspacing="10" cellpadding="5">
+                <tr>
+                    <td>
+                        Applicants Address<strong>*</strong>
+                    </td>
+                    <td>
+                        <textarea name="address" id="" rows="5" cols="30"></textarea required="required"><br>
                   (max characters :20)
                 </td>
                 <td>
@@ -124,7 +151,7 @@
             </tr>
             <tr>
                 <td>
-                    <label for="passtype">passtype<strong>*</strong></label>
+                    <label for="passtype">Passtype<strong>*</strong></label>
                     &emsp;&emsp;&emsp;&nbsp;<select name="passtype" id="passtype">
                     <option value="" selected disabled>------select-----</option>
                     <option value="HYDERABAD">GREATER PASS</option>
